@@ -1,0 +1,22 @@
+{
+  "name": "proyecto_backend",
+  "version": "1.0.0",
+  "description": "Curso Práctico de Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon api/index.js"
+  },
+  "author": "Deyvis Neyser",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^4.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "nanoid": "^2.1.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
